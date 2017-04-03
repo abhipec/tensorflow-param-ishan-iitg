@@ -38,7 +38,8 @@ module load gcc/4.8.2
 module load python/cdac/3.5.2
 module load slurm
 
-export http_proxy=http://username:password@202.10.01.10:3128/
+# Change proxy setting.
+export http_proxy=http://username:password@IP:3128/
 export https_proxy=$http_proxy
 export LC_COLLATE=C
 export LC_ALL=C
