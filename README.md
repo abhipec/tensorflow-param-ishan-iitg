@@ -13,7 +13,7 @@ GPU login node IP is 172.17.0.8, login directly to this node by its IP.
 1. create a copy of Cuda toolkit to the home directory.
 ```bash
   mkdir cuda75
-  cp -r /cm/shared/apps/cuda80/toolkit/7.5.18/* cuda75/
+  cp -r /cm/shared/apps/cuda75/toolkit/7.5.18/* cuda75/
 ```
 2. Download and install [cuDNN v5 Library for Linux for Cuda 7.5](https://developer.nvidia.com/rdp/cudnn-download)
 ```bash
